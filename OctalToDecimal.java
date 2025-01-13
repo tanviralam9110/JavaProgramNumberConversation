@@ -12,7 +12,6 @@ public class OctalToDecimal {
     public static String convertOctalToDecimal(int num){
         int dec=0;
         int eightMultiple=1;
-        int originalNum=num;
         while (num>0){
             int rem=num%10;
             if (rem<=7)
